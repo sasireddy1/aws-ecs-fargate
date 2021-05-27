@@ -5,7 +5,7 @@ RUN apt update && apt upgrade -y && apt install -y nginx
 #copy ./ /etc/nginx/nginx.conf
 
 #content,
-copy ./shine /var/www/html/
+copy ./solitude /var/www/html/
 #copy ./*.css /usr/share/nginx/html/
 #copy ./*.png /usr/share/nginx/html/
 #copy ./*.js /usr/share/nginx/html/
