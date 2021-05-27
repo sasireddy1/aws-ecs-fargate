@@ -1,5 +1,5 @@
 {
-    "family": "sample-webapp",
+    "family": "sample-app",
     "networkMode": "awsvpc",
     "containerDefinitions": [
         {
