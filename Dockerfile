@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt update && apt upgrade && apt install -y nginx
+RUN apt update && apt upgrade -y && apt install -y nginx
 
 #config
 #copy ./ /etc/nginx/nginx.conf
